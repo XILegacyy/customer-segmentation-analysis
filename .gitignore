@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+
+# Data files - DO NOT COMMIT LARGE OR RAW DATA TO GITHUB
+data/*.xlsx
+data/*.csv
+data/*.pkl
+models/*.pkl
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Output and Reports (can be generated)
+reports/images/
+*.log
+
+# Large data files (should not be committed)
+data/online_retail_II.xlsx
+data/online_retail_II.xlsx.zip
+data/cleaned_online_retail.csv  # Optional - can be regenerated
+
+# Environment and IDE files
+venv/
+.env
+*.pyc
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebooks cache
+.ipynb_checkpoints/

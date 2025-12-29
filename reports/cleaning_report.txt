@@ -1,0 +1,46 @@
+
+======================================================================
+DATA CLEANING REPORT - CUSTOMER SEGMENTATION
+======================================================================
+Generated: 2025-12-29 03:16:35
+
+1. CLEANING SUMMARY
+----------------------------------------
+Initial rows: 1,067,371
+Final rows: 805,620
+Rows removed: 261,751 (24.5%)
+
+2. CLEANING STEPS PERFORMED
+----------------------------------------
+1. Missing Customer IDs: Removed 243,007 rows
+   • Reason: Cannot perform customer segmentation without Customer ID
+
+2. Returns (Negative Quantities): Removed 18,744 rows
+   • Reason: Focus on purchase analysis only
+
+3. Missing Descriptions: Filled 0 rows with 'Unknown Product'
+
+4. Outlier Handling:
+   • Quantity: Capped outliers
+   • Price: Capped outliers
+
+3. DATA QUALITY AFTER CLEANING
+----------------------------------------
+Missing Customer IDs: 0 ✓
+Negative Quantities: 0 ✓
+Missing Descriptions: 0 ✓
+Unique Customers: 5,881
+Date Range: 2009-12-01 to 2011-12-09
+Transaction Value: £13,446,484.62
+
+4. NEXT STEPS FOR RFM ANALYSIS
+----------------------------------------
+1. Calculate Recency: Days since last purchase
+2. Calculate Frequency: Number of purchases per customer
+3. Calculate Monetary: Total spend per customer
+4. Create RFM scores for segmentation
+
+5. FILES CREATED
+----------------------------------------
+• data/cleaned_online_retail.csv - Full cleaned dataset (805,620 rows)
+• data/cleaned_sample_10000.csv - Sample for testing (10,000 rows)

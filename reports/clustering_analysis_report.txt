@@ -1,0 +1,84 @@
+
+======================================================================
+CLUSTERING ANALYSIS REPORT - CUSTOMER SEGMENTATION
+======================================================================
+Generated: 2025-12-29 03:17:01
+Method: K-Means Clustering with k=4
+Total Customers: 5,881
+
+1. CLUSTERING METHODOLOGY
+----------------------------------------
+Features used: Recency, Frequency, Monetary (log-transformed)
+Preprocessing: Standardization (mean=0, std=1)
+Optimal clusters: 4 (determined by elbow method & silhouette)
+Algorithm: K-Means with random_state=42 for reproducibility
+
+2. CLUSTER DISTRIBUTION
+----------------------------------------
+
+Frequent Buyers (Cluster 0):
+  • Customers: 2,493 (42.4%)
+  • Avg Recency: 89.4 days
+  • Avg Frequency: 3.2
+  • Avg Monetary: £790.03
+Dormant Customers (Cluster 1):
+  • Customers: 1,866 (31.7%)
+  • Avg Recency: 473.6 days
+  • Avg Frequency: 1.9
+  • Avg Monetary: £502.06
+High-Value Champions (Cluster 2):
+  • Customers: 21 (0.4%)
+  • Avg Recency: 23.8 days
+  • Avg Frequency: 162.3
+  • Avg Monetary: £75,940.51
+High-Value Champions (Cluster 3):
+  • Customers: 1,501 (25.5%)
+  • Avg Recency: 51.8 days
+  • Avg Frequency: 14.6
+  • Avg Monetary: £5,959.59
+
+3. CLUSTER INTERPRETATION & BUSINESS INSIGHTS
+----------------------------------------
+
+Frequent Buyers:
+  • Characteristics: 89 days recency, 3.2 avg purchases, £790 avg spend
+  • Business Value: 1,969,545 total revenue
+  • Marketing Action: Volume discounts, subscription models
+Dormant Customers:
+  • Characteristics: 474 days recency, 1.9 avg purchases, £502 avg spend
+  • Business Value: 936,844 total revenue
+  • Marketing Action: Reactivation campaigns, win-back offers
+High-Value Champions:
+  • Characteristics: 24 days recency, 162.3 avg purchases, £75,941 avg spend
+  • Business Value: 1,594,751 total revenue
+  • Marketing Action: Premium loyalty programs, exclusive offers
+High-Value Champions:
+  • Characteristics: 52 days recency, 14.6 avg purchases, £5,960 avg spend
+  • Business Value: 8,945,345 total revenue
+  • Marketing Action: Premium loyalty programs, exclusive offers
+
+4. COMPARISON WITH RFM SEGMENTS
+----------------------------------------
+Machine Learning vs. Business Rules:
+
+• Clustering finds natural groups in data
+• RFM uses predefined business rules
+• Combining both gives complete picture
+
+5. VISUALIZATIONS CREATED
+----------------------------------------
+• reports/images/04_cluster_distribution.png - Cluster sizes & profiles
+• reports/images/05_cluster_scatter.png - 2D cluster visualization
+
+6. FILES GENERATED
+----------------------------------------
+• data/customer_clusters.csv - Complete clustering results
+• data/cluster_profiles.csv - Cluster profiles with statistics
+• reports/clustering_analysis_report.txt - This analysis report
+
+7. NEXT STEPS
+----------------------------------------
+1. Create targeted campaigns for each cluster
+2. Monitor cluster migration over time
+3. A/B test marketing strategies per cluster
+4. Integrate with CRM system for automated segmentation

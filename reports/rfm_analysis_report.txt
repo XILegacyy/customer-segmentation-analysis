@@ -1,0 +1,94 @@
+
+======================================================================
+RFM ANALYSIS REPORT - CUSTOMER SEGMENTATION
+======================================================================
+Generated: 2025-12-29 03:16:44
+Total Customers Analyzed: 5,881
+
+1. RFM METRICS SUMMARY
+----------------------------------------
+Recency (Days since last purchase):
+  • Range: 1 to 739 days
+  • Average: 201.5 days
+  • Median: 96 days
+
+Frequency (Number of purchases):
+  • Range: 1 to 398
+  • Average: 6.3 purchases
+  • 75th percentile: 7 purchases
+
+Monetary (Total spend):
+  • Range: £0.00 to £257548.66
+  • Average: £2286.43
+  • Total customer value: £13,446,484.62
+
+2. CUSTOMER SEGMENTS
+----------------------------------------
+
+Champion:
+  • Count: 1,826 (31.0%)
+  • Avg Recency: 29.2 days
+  • Avg Frequency: 14.0
+  • Avg Monetary: £5555.88
+  • Typical RFM Score: 444
+Hibernating:
+  • Count: 1,235 (21.0%)
+  • Avg Recency: 524.7 days
+  • Avg Frequency: 1.4
+  • Avg Monetary: £374.13
+  • Typical RFM Score: 111
+At Risk Loyal:
+  • Count: 881 (15.0%)
+  • Avg Recency: 277.1 days
+  • Avg Frequency: 6.5
+  • Avg Monetary: £2001.98
+  • Typical RFM Score: 233
+At Risk:
+  • Count: 811 (13.8%)
+  • Avg Recency: 240.1 days
+  • Avg Frequency: 1.7
+  • Avg Monetary: £507.29
+  • Typical RFM Score: 211
+Potential Loyalist:
+  • Count: 558 (9.5%)
+  • Avg Recency: 37.2 days
+  • Avg Frequency: 2.2
+  • Avg Monetary: £755.68
+  • Typical RFM Score: 322
+New Customer:
+  • Count: 337 (5.7%)
+  • Avg Recency: 46.5 days
+  • Avg Frequency: 1.0
+  • Avg Monetary: £333.96
+  • Typical RFM Score: 311
+Loyal Customer:
+  • Count: 233 (4.0%)
+  • Avg Recency: 34.8 days
+  • Avg Frequency: 4.2
+  • Avg Monetary: £558.03
+  • Typical RFM Score: 332
+
+3. SEGMENT INTERPRETATION & ACTION PLAN
+----------------------------------------
+1. CHAMPIONS (1,826 customers)
+   • Action: Reward them, ask for reviews, offer loyalty programs
+
+2. LOYAL CUSTOMERS (233 customers)
+   • Action: Upsell, offer member-only benefits
+
+3. AT RISK (811 customers)
+   • Action: Win back with special offers, re-engagement campaigns
+
+4. NEW CUSTOMERS (337 customers)
+   • Action: Welcome series, onboarding, first-purchase follow-up
+
+5. HIBERNATING (1,235 customers)
+   • Action: Reactivation campaigns, win-back offers
+
+6. PROMISING (0 customers)
+   • Action: Encourage repeat purchases, recommend products
+
+4. FILES GENERATED
+----------------------------------------
+• data/rfm_data.csv - Complete RFM data for all customers
+• data/segment_summary.csv - Segment summary with averages

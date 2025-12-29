@@ -1,0 +1,54 @@
+
+======================================================================
+CUSTOMER SEGMENTATION - DATA EXPLORATION REPORT
+======================================================================
+Generated: 2025-12-29 03:13:46
+Dataset: Online Retail II
+
+1. DATASET OVERVIEW
+----------------------------------------
+Total Rows: 1,067,371
+Total Columns: 9
+Memory Usage: 249.05 MB
+
+2. COLUMNS
+----------------------------------------
+ 1. Invoice (object)
+ 2. StockCode (object)
+ 3. Description (object)
+ 4. Quantity (int64)
+ 5. InvoiceDate (datetime64[ns])
+ 6. Price (float64)
+ 7. Customer ID (float64)
+ 8. Country (object)
+ 9. TransactionValue (float64)
+
+3. MISSING VALUES
+----------------------------------------
+Description: 4,382 missing (0.41%)
+Customer ID: 243,007 missing (22.77%)
+
+4. KEY STATISTICS
+----------------------------------------
+Quantity: -80995.00 to 80995.00
+Price: £-53594.36 to £38970.00
+
+5. BUSINESS METRICS
+----------------------------------------
+Date Range: 2009-12-01 to 2011-12-09
+Total Transaction Value: £19,287,250.57
+Average Transaction Value: £18.07
+Unique Customers: 5,942
+
+6. DATA QUALITY ISSUES
+----------------------------------------
+1. Missing Customer IDs: 243,007 rows
+2. Negative Quantities (Returns): 22,950 transactions
+3. Missing Descriptions: 4,382 rows
+
+7. RECOMMENDATIONS FOR CLEANING
+----------------------------------------
+1. Remove rows without Customer ID (critical for segmentation)
+2. Handle returns separately or remove for purchase analysis
+3. Fill missing descriptions with 'Unknown'
+4. Check for outliers in Price and Quantity
